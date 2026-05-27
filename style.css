@@ -112,7 +112,6 @@ footer {
 }
 
 /* Smartphone */
-
 @media (max-width: 600px) {
 
   header .container {
@@ -140,7 +139,6 @@ footer {
 
 }
 
-}
 .gallery-section {
     padding: 80px 20px;
     background: #111;
