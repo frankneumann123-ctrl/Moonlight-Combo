@@ -116,14 +116,18 @@ footer {
 @media (max-width: 600px) {
 
   header .container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
   }
 
   nav ul {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 0;
+    gap: 10px;
   }
 
   .hero {
@@ -133,6 +137,8 @@ footer {
   .hero h2 {
     font-size: 1.5rem;
   }
+
+}
 
 }
 .gallery-section {
